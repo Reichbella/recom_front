@@ -1,12 +1,29 @@
-# React + Vite
+Ce projet est le frontend d'une application web de recommandations de films, construite avec React, Vite, et Tailwind CSS. Il permet aux utilisateurs de sélectionner un genre de film (Action, Comédie, etc.) et d'afficher des recommandations générées par un backend Flask utilisant le dataset MovieLens 100K.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Fonctionnalités
 
-Currently, two official plugins are available:
+Sélection d'un genre de film via une liste déroulante.
+Affichage des recommandations avec titres et scores prédits.
+Interface moderne avec dégradé bleu-violet et animations Tailwind.
+Message de chargement et spinner animé pour indiquer les délais de traitement.
+Communication avec une API backend Flask via requêtes POST.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Prérequis
 
-## Expanding the ESLint configuration
+Node.js (v18 ou supérieur) : Télécharger.
+npm (inclus avec Node.js).
+Un backend Flask opérationnel (voir recom_back).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Installation
+
+Cloner le repository :
+git clone https://github.com/votre-utilisateur/recom-stream-front.git
+cd recom_front
+
+Installer les dépendances :
+npm install
+
+Exécution locale
+
+Démarrer le serveur de développement :
+npm run dev
