@@ -115,8 +115,6 @@ function Movies() {
           </div>
         )}
       </main>
-
-      
     </div>
   );
 }

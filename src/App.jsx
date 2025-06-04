@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Movies from "../../../recom_stream/front/src/pages/Movies";
+import Movies from "./pages/Movies";
 
 function App() {
   return (
